@@ -1,0 +1,35 @@
+header{
+    background-color:royalblue;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+}
+nav a{
+    color: teal;
+}
+#home h2{
+    color: teal;
+}
+#about h2{
+    color: teal;
+}
+#about p{
+    color: teal;
+}
+#packages h2{
+    color: teal;
+}
+#packages {
+    background-color: rgb(198, 217, 217);
+
+}
+
+#packages2 {
+    background-color: burlywood;    
+}
+#packages2 h3{
+    color: rgb(190, 85, 37);    
+}
