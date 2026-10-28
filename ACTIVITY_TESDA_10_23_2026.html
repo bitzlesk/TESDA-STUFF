@@ -6,16 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lakbay Batangas Tours | Week 11 Final Repair</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
   <header>
-    <h1>Lakbay Batangas Tours</h1>
-    <p>Sample local tour information for Web Development NC III.</p>
+    <div class="brand">
+      <h1>Lakbay Batangas Tours</h1>
+      <p>Sample local tour information for Web Development NC III.</p>
+    </div>
     <nav aria-label="Main navigation">
-      <a href="#home">Home</a> |
-      <a href="#about">About</a> |
-      <a href="#packages">Tour Packages</a> |
-      <a href="#why-us">Why Choose Us</a> |
+      <a href="#home" class="home">Home</a> 
+      <a href="#about">About</a> 
+      <a href="#packages">Tour Packages</a> 
+      <a href="#why-us">Why Choose Us</a> 
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -34,25 +38,34 @@
       </figure>
       <p>Photo by Talynhaga. <a href="https://commons.wikimedia.org/wiki/File:Taal_Lake.jpg">Image source</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>.</p>
     </section>
-    <section id="packages">
+  <section id="packages">
       <h2>Featured Tour Packages</h2>
-      <article id="packages2">
+    <div class="row col-3">
+      <div class="container col-4">
+        <article id="packages2">
         <h3>Taal Heritage Tour</h3>
         <p>Sample walking visit to heritage attractions.</p>
         <a href="#contact">Ask about the Heritage Tour</a>
-      </article>
+        </article>
+      </div>
+    <div class="container col-4">
       <article>
         <h3>Laiya Beach Tour</h3>
         <p>Sample trip highlighting coastal scenery.</p>
         <a href="#contact">Ask about the Beach Tour</a>
       </article>
-      <article>
+    </div>
+    <div class="container col-4">
+    <article>
         <h3>Batangas Nature Tour</h3>
         <p>Sample nature-focused day trip.</p>
         <a href="#contact">Ask about the Nature Tour</a>
       </article>
-      <h3>Sample Tour Comparison</h3>
-      <table>
+    </div>
+    </div>
+      
+      <h3 class="tour">Sample Tour Comparison</h3>
+      <table class="tour">
         <caption>Sample tour duration guide</caption>
         <thead>
           <tr>
