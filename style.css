@@ -1,35 +1,117 @@
 header{
-    background-color:royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    background-color:rgb(6, 43, 103);
     font-family: sans-serif;
     color: white;
 }
 
+.brand h1,
+.brand p {
+    margin: 0;
+}
+
+.brand p {
+    margin-top: 0.25rem;
+}
+
 body{
+    margin: 0;
     font-family: sans-serif;
 }
-nav a{
-    color: teal;
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
 }
+
+nav a{
+    color: rgb(247, 248, 248);
+    white-space: nowrap;
+}
+#home {
+    align-items: center;
+    margin-top:7vh;
+    text-align: center;
+}
+
 #home h2{
     color: teal;
+    font-size: 2rem;
+    
+}
+
+#about {
+    margin-top: 5vh;
+    padding: 1rem;
+    background-color: rgb(250, 254, 254);
 }
 #about h2{
     color: teal;
+    text-align: center;
 }
 #about p{
-    color: teal;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 #packages h2{
-    color: teal;
+    color: rgb(22, 112, 112);
+    text-align: center;
 }
 #packages {
-    background-color: rgb(198, 217, 217);
-
+    padding: 1rem;
+    background-color: rgb(250, 254, 254);
 }
 
-#packages2 {
-    background-color: burlywood;    
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
 }
+
+.container {
+    min-width: 0;
+}
+
+.container article {
+    height: 100%;
+}
+
+.row {
+    text-align: center;
+}
+
+
 #packages2 h3{
-    color: rgb(190, 85, 37);    
+    color: rgb(0, 0, 0);    
+}
+
+a:hover{
+    color: rgb(187, 113, 224);
+}
+
+a:visited{
+    color: brown;
+}
+
+#about figure {
+    text-align: center;
+}
+
+header nav a:hover {
+    color: rgb(187, 113, 224);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+header nav a:visited {
+    color: rgb(247, 248, 248);
+}
+
+:focus-visible {
+    outline: 2px solid rgb(187, 113, 224);
+    outline-offset: 2px;
 }
